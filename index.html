@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Interns</title>
+</head>
+ 
+<body>
+  <!-- Start Nagigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger pl-5 fixed-top">
+    <a href="index.html" class="navbar-brand">Interns</a>
+    <span class="navbar-text">Learn and Implement</span>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myMenu">
+      <ul class="navbar-nav pl-5 custom-nav">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav> <!-- End Navigation -->
+
+  <!-- Start Header Jumbotron-->
+  <header class="jumbotron back-image" style="background-image: url(images/Banner.jpg);">
+    <div class="text-center" style="margin-top: 120px;">
+      <h1 class="text-uppercase text-elegant-color-dark font-weight-bold">Welcome to Interns</h1>
+      <p class="font-italic font-weight-bold st">Learn and Implement</p>
+      <a href="#Contact" class="btn btn-outline-elegant-color-dark mr-4">Hire Us</a>
+    </div>
+  </header> <!-- End Header Jumbotron -->
+
+  <!-- Start Services -->
+  <div class="container text-center border-bottom" id="Services"> 
+    <h2>Our Services</h2>
+    <div class="row mt-4">
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fab fa-android fa-10x text-success"></i></a>
+        <h4 class="mt-4">Android Application</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-desktop fa-10x text-primary"></i></a>
+        <h4 class="mt-4">Web Application</h4>
+      </div>
+      <div class="col-sm-4 mb-4">
+        <a href="#"><i class="fas fa-database fa-10x text-info"></i></a>
+        <h4 class="mt-4">Database</h4>
+      </div>
+    </div>
+  </div> <!-- End Services -->
+
+  <!-- Start Course  -->
+  <div class="container pt-5" id="Courses"> <!-- Start Course Container -->
+    <h2 class="text-center">Our Courses</h2>  <!-- Course Heading -->
+    <div class="row mt-4">        <!-- Start Course 1st Row -->
+      <div class="col-lg-6 mb-4">     <!-- Start Course 1st Row's 1st Column -->
+        <img src="images/course1.jpeg" alt="" class="img-fluid">
+      </div>  <!-- End Course 1st Row's 1st Column -->
+
+      <div class="col-lg-6">    <!-- Start Course 1st Row's 2nd Column -->
+        <h2 class="text-center">Learn Java Programming</h2> <br>
+        <p>Java is a general-purpose, versatile and popular programming language. It's great as a first language because it is concise and easy to read, and it is also a good language to have in any programmer's stack as it can be used for everything from web development to software development and scientific applications.</p>
+        <p>This course is a great introduction to both fundamental programming concepts and the Java programming language. By the end, you'll be comfortable programming in Core Java.</p>
+      </div>  <!-- End Course 1st Row's 2nd Column -->
+    </div>  <!-- End Course 1st Row -->
+
+    <div class="row mt-4">    <!-- Start Course 2nd Row -->
+      <div class="col-lg-6">  <!-- Start Course 2nd Row's 1st Column -->
+        <h2 class="text-center">Real World Projects</h2> <br>
+        <p>Java projects are programming tasks written in Java that use various aspects of the language to achieve a defined purpose. A Java project can be a small application like a calculator or a large-scale endeavor like a complex website or commercial application. Software developers often use small projects to explore aspects of the language that are new to them or test functionality before incorporating that functionality into a larger project. Java developers might also create projects for recreational purposes, such as games or to automate a repetitive process.</p>
+        <p>Whether your Java projects are large or small, and whether they're for fun or for serious business use, including them on your resume can demonstrate your range of ability with the language. </p>
+      </div>  <!-- End Course 2nd Row's 1st Column -->
+
+      <div class="col-lg-6 mb-4">   <!-- Start Course 2nd Row's 2nd Column -->
+        <img src="images/course2.jpeg" alt="" class="img-fluid">
+      </div>    <!-- End Course 2nd Row's 2nd Column -->
+    </div>    <!-- End Course 2nd Row -->
+  </div> <!-- End Course Container --> <!-- End Course  -->
+
+  <!-- Start Team  -->
+  <div class="jumbotron bg-elegant-color-dark" id="Team">   <!-- Start Team Jumbotron -->
+    <div class="container">     <!-- Start Team Container -->
+      <h2 class="text-center text-white">Developer</h2>    <!-- Team Heading-->
+      <div class="row mt-5">    <!-- Start Team Row-->
+        <div class="col-lg-3 col-sm-6">     <!-- Start Team 1st Column-->
+          <div class="card shadow-lg mb-2">
+            <div class="card-body text-center">
+              <img src="images/avatar.jpg" class="img-fluid" style="border-radius: 100px;">
+              <h4 class="card-title">Yogesh Bhagadkar</h4>
+              <p class="card-text">Intern ,learning new things and waiting for opportunities.This project is to learn various Courses.</p>
+            </div>
+          </div>
+        </div>    <!-- End Team 1st Column-->
+
+      </div>    <!-- End Team Row-->
+    </div>  <!-- End Team Container -->
+  </div> <!-- End Team Jumbotron -->
+
+  <!--Start Contact Us-->
+  <div class="container" id="Contact"> <!--Start Contact Us Container-->
+    <h2 class="text-center mb-4">Contact US</h2>    <!-- Contact Us Heading -->
+    <div class="row">           <!--Start Contact Us Row-->
+      <div class="col-md-8">    <!--Start Contact Us 1st Column-->
+        <form action="#" method="post">
+          <input class="form-control" name="name" placeholder="Name" /><br />
+          <input class="form-control" name="phone" placeholder="Phone" /><br />
+          <input class="form-control" name="email" placeholder="E-mail" /><br />
+          <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+          <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+        </form>
+      </div>  <!-- End Contact Us 1st Column-->
+
+      <div class="col-md-4 text-center">    <!-- Start Contact Us 2nd Column-->
+        <strong>Headquarter:</strong> <br>
+        Interns Pvt Ltd, <br>
+        Jalgaon <br>
+        Maharashtra - 425001 <br>
+        Phone: +91-8439258426 <br> 
+    
+        <br><br>
+      </div>    <!-- End Contact Us 2nd Column-->
+    </div>    <!-- End Contact Us Row-->
+  </div>  <!-- End Contact Us Container-->    <!-- End Contact Us -->
+
+  <!-- Start Footer-->
+  <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #212121  ;">
+    <div class="container">   <!-- Start Footer Container -->
+      <div class="row py-3">    <!-- Start Footer Row -->
+        <div class="col-md-6">      <!-- Start Footer 1st Column -->
+          
+        </div>    <!-- End Footer 1st Column -->
+
+        <div class="col-md-6 text-right">   <!-- Start Footer 2nd Column -->
+          <small> Designed by <a target="_blank">Yogesh</a> &copy; 2023. </small>
+        </div>    <!-- End Footer 2nd Column -->
+      </div>    <!-- End Footer Row -->
+    </div>    <!-- End Footer Container -->
+  </footer> <!-- End Footer -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
+  integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
